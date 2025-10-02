@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 <a href="https://youtu.be/moRqo158NGc?si=DAIbiOkKnHknEQVJ" target="_blank">
   <img src="thumbnail.png" alt="Thumbnail"/>
@@ -19,3 +20,6 @@
 <a href="https://youtu.be/moRqo158NGc?si=DAIbiOkKnHknEQVJ">
   <img src="youtube.png" alt="youtube"/>
 </a>
+=======
+# animated-portfolio
+>>>>>>> acda7b69d663fd356c7f38470919261b77e50081
