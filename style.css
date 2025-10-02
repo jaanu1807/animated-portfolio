@@ -7,6 +7,7 @@ body{
 
 html{
     scroll-behavior: smooth;
+    scroll-padding-top: 80px;
 }
 
 .container{
@@ -134,7 +135,7 @@ header ul a:hover{
 
 .hero-info{
     position: absolute;
-    left: 5%;
+    left: 10%;
 }
 
 .hero-info .hero-info-title{
@@ -234,6 +235,10 @@ header ul a:hover{
     animation-delay: 0.5s;
     /* animation: scroll-down 1s ease-in-out infinite; */
   }
+  section {
+  scroll-margin-top: 80px; /* adjust based on navbar height */
+}
+
   
   @keyframes scroll-down {
     0% {
@@ -1223,7 +1228,18 @@ header ul a:hover{
 
 
 
+.img{
+    width: 300px;        /* Set the width of your box */
+    height: 300px;       /* Set the height of your box */
+    overflow: hidden;    /* Prevent image from overflowing */
+    border: 2px solid #000; /* Optional: to see the box */
+}
 
+.img {
+    width: 100%;         /* Make image fit the box width */
+    height: 100%;        /* Make image fit the box height */
+    object-fit: cover;   /* Cover the box without stretching */
+}
 
 
 
